@@ -24,3 +24,12 @@
 .menu-item button:hover {
     background-color: #000;
 }
+  
+  .linea-horizontal {
+    width: 50%; /* ajusta el ancho según sea necesario */
+    margin: 20px auto; /* centra la línea horizontal */
+    border-style: solid;
+    border-width: 1px; /* ajusta el grosor según sea necesario */
+    background-color: #020202;
+  }
+  

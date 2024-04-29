@@ -1,0 +1,26 @@
+/* Estilos generales */
+
+/* Estilos específicos para cada sección */
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #000;
+}

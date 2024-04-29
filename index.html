@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restocontrol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <center><h1>RESTOCONTROL</h1></center>
+    </header>
+
+    <nav>
+        <ul>
+            <center><button><li><a href="#inicio">Inicio</a></li></button>
+            <br>
+            <button><li><a href="#platos">Platos</a></li></button>
+            <br>
+            <button><li><a href="#bebidas">Bebidas</a></li></button>
+            <br>
+            <button><li><a href="#postres">Postres</a></li></button>
+            <br>
+            <button><li><a href="#contacto">Contacto</a></li></button></center>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenido al menú digital de la casa</h2>
+        <p>Aquí puedes encontrar una amplia variedad de platos, bebidas y postres para disfrutar.</p>
+    </section>
+
+    <section id="platos">
+        <center><h2>Platos</h2></center>
+        <div class="menu-item" id="platos1">
+            <br>
+            <center><img src="/img/plato1.jpg" width="500px"; height="600px"; alt="plato 1">
+            <h3>Milanesa a la napolitana con papas fritas</h3>
+            <p>Precio: $5700</p>
+            <button onclick="agregarAlCarrito('Plato 1', 6)">Agregar al Carrito</button></center>
+        </div>
+        <br>
+        <div class="menu-item" id="platos2">
+            <center><img src="/img/plato2.jpg" width="500px"; height="600px"; alt="plato 2">
+            <h3>Empanadas de carne</h3>
+            <p>Precio: $1000</p>
+            <button onclick="agregarAlCarrito('Plato 2', 5)">Agregar al Carrito</button></center>
+        </div>
+    </section>
+
+    <section id="bebidas">
+        <center><h2>Bebidas</h2></center>
+        <div class="menu-item" id="bebidas1">
+            <br>
+            <center><img src="/img/bebida1.jpg" width="500px"; height="600px"; alt="bebida 1">
+            <h3>cerveza corona</h3>
+            <p>Precio: $3100</p>
+            <button onclick="agregarAlCarrito('Bebida 1', 6)">Agregar al Carrito</button></center>
+        </div>
+        <br>
+        <div class="menu-item" id="bebidas2">
+            <center><img src="/img/bebida2.jpg" width="500px"; height="600px"; alt="bebida 2">
+            <h3>cerveza quilmes</h3>
+            <p>Precio: $2100</p>
+            <button onclick="agregarAlCarrito('Bebida 2', 5)">Agregar al Carrito</button></center>
+        </div>
+    </section>
+
+    <section id="postres">
+        <center><h2>Postres</h2></center>
+        <div class="menu-item" id="postre1">
+            <br>
+            <center><img src="/img/postre1.jpg" width="700px"; height="500px"; alt="Postre 1">
+            <h3>Cheesecake</h3>
+            <p>El Cheesecake o tarta de queso es un postre muy popular desde el siglo XX hecho a base de ricota, requesón, queso quark, azúcar y algunas veces otros ingredientes, tales como: huevos, crema de leche o nata, harina, patata, almendras o frutas.</p>
+            <p>Precio: $1700</p>
+            <button onclick="agregarAlCarrito('Postre 1', 6)">Agregar al Carrito</button></center>
+        </div>
+        <div class="menu-item" id="postre2">
+            <br>
+            <center><img src="/img/postre2.jpg" width="700px"; height="500px"; alt="Postre 2">
+                <h3>Selva negra</h3>
+                <p>El pastel selva negra es uno de esos placeres que sencillamente no puedes dejar pasar; y es que, con la deliciosa combinación de pan de chocolate, jarabe envinado, cerezas negras y cubierta de crema batida con virutas decorativas de chocolate podemos decir que nos encontramos ante un postre exótico que despertará todos tus sentidos con cada mordida.</p>
+                <p>Precio: $2000</p>
+                <button onclick="agregarAlCarrito('Postre 2', 5)">Agregar al Carrito</button></center>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <center><h2>Contacto</h2>
+        <h3>CORREO:Lacasaoficial@gmail.com</h3></center>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Menú Digital. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
